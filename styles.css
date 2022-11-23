@@ -1,23 +1,55 @@
-body {
+/* body {
   text-align: center;
-}
+  background-image: linear-gradient(
+    45deg, 
+    #f8f8f8 0%,
+    rgb(129, 137, 179) 25%, 
+    rgba(152,68,183,1) 51%,   
+    rgba(255,53,127,1) 100%);
+    animation: AnimateBG 5s ease-in-out infinite;
+} */
 
+/*
+@keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+} */
+
+/* body {
+  text-align: center;
+  background-image: linear-gradient(
+    -45deg, 
+    rgba(59,173,227,1) 0%, 
+    rgba(87,111,230,1) 25%, 
+    rgba(152,68,183,1) 51%, 
+    rgba(255,53,127,1) 100%);
+    animation: AnimateBG 5s ease-in-out infinite;
+}  */
+
+/* @keyframes AnimateBG { 
+  0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
+} */
+
+/* 
 #navBar {
   background-color: grey;
-}
+} */
 
-.navbar-light .navbar-nav .nav-link {
-    color: #fff;
-}
+/* .navbar-light .navbar-nav .nav-link {
+  color: #fff;
+} */
 
 #about {
-  margin: 30px 100px 30px;
+  margin: 30px 250px 30px;
 }
 
-h1 {
+.name-heading > h1 {
   font-family: "DM Serif Display", serif;
   font-size: 3rem;
-    font-weight: 1000;
+  font-weight: 1000;
 }
 
 .webDeveloper {
@@ -29,9 +61,10 @@ h1 {
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 10px;
+  color: white;
 }
 
-.social-icon  {
+.social-icon {
   margin: 10px;
 }
 
@@ -42,16 +75,14 @@ h1 {
 
 
 h2 {
-  font-family: 'Verdana';
   font-size: 2rem;
   font-weight: 700;
-
 }
 
 
-p {
+/* p {
   font-family: "Inter", sans-serif;
-}
+} */
 
 .aboutText {
   text-align: justify;
@@ -80,20 +111,78 @@ td {
 }
 
 .footerSection {
-  background-color: grey;
+  text-align: center;
+  background-image: url("./images/footer.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.footer-links {
+  text-decoration: none;
+  color: white;
 }
 
 /* Projects */
-.project1, .project3 {
-  text-align: left;
-  margin: 30px 100px 30px;
-  padding: 0 20px 0;
+
+.p-item {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  gap: 2rem;
+  /* align-items: baseline; */
 }
 
-.project2, .project4 {
-  text-align: right;
-  margin: 30px 100px 30px;
-  padding: 0 20px 0;
+.p-item-text {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-template-areas: "area1 area2" "area3 area3";
+}
+
+
+.item1 {
+  grid-area: area1;
+  align-items: stretch;
+  text-align: center;
+}
+
+.item2 {
+  grid-area: area2;
+  align-items: stretch;
+  text-align: center;
+}
+
+.item3 {
+  grid-area: area3;
+}
+
+.p-item-heading {
+  text-align: left;
+  border-bottom: 2px solid #222;
+  border-right: 1px solid #222;
+}
+
+.p-item-num {
+  border-bottom: 2px solid #222;
+  border-left: 1px solid #222;
+}
+
+.p-item-heading>h2 {
+  line-height: 3rem;
+  /* font-size: 48px; */
+
+}
+
+
+.p-item-image {
+  object-fit: cover;
+}
+
+.p-item-image>img {
+
+  box-shadow: rgb(0 0 0 / 12%) 0px 6px 16px;
+  border-radius: 5px;
+  /* border-radius: 1.5rem; */
 }
 
 .projectText {
@@ -103,21 +192,6 @@ td {
   font-weight: light;
 }
 
-.tindog, .drumKit {
-  width: 30%;
-  float: left;
-  margin-right: 30px;
-  border-radius: 5%;
-}
-
-.dicee, .simonGame {
-  width: 30%;
-  float: right;
-  margin-left: 30px;
-  border-radius: 5%;
-}
-
-
 /* Contact */
 #contact {
   text-align: left;
@@ -125,5 +199,7 @@ td {
 }
 
 .upArrow {
+  font-size: 1.5rem;
   margin-bottom: 30px;
+  color: white;
 }
