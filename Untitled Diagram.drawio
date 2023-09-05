@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T17:37:37.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="C2KblZ4SIVmgZ07srOkN" version="21.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T17:37:55.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_gyXMPjqtEIJfi8Y6a_F" version="21.7.1" type="github">
   <diagram name="Page-1" id="1zYVnJ6PhORE1R0jCIVj">
     <mxGraphModel dx="913" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -69,7 +69,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="s3QZQg_NEE9RPPklwjus-27" value="Raw material &lt;br&gt;available in store?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
+        <mxCell id="s3QZQg_NEE9RPPklwjus-27" value="Raw material &lt;br&gt;available?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="470" y="220" width="160.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="s3QZQg_NEE9RPPklwjus-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="s3QZQg_NEE9RPPklwjus-28" target="s3QZQg_NEE9RPPklwjus-8">
