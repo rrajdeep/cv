@@ -1,9 +1,33 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T16:54:56.608Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.7.1" etag="XLApPFngvofBPcn3q_hW" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T17:08:01.227Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="vPVcrV7oOdvuwSEwfCpu" version="21.7.1" type="github">
   <diagram name="Page-1" id="1zYVnJ6PhORE1R0jCIVj">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="s3QZQg_NEE9RPPklwjus-5" value="Item available in inventor?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="290" y="410" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s3QZQg_NEE9RPPklwjus-8" value="Pick and pack" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="585" width="206" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3QZQg_NEE9RPPklwjus-9" value="Shipment ready" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="700" width="206" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3QZQg_NEE9RPPklwjus-10" value="Dispatch" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="790" width="206" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3QZQg_NEE9RPPklwjus-11" value="Delivery confirmation by customer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="270" y="920" width="206" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3QZQg_NEE9RPPklwjus-13" value="Inventory check" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="280" width="206" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3QZQg_NEE9RPPklwjus-14" value="Order process and confirmation" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="257" y="160" width="206" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s3QZQg_NEE9RPPklwjus-15" value="Customer places an order" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="270" y="30" width="150" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
